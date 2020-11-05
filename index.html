@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+    <title>My Profile</title>
+    <link rel="stylesheet" href="assets/css/templatemo-style.css" />
+    <script src="assets/js/scriptfile.js"></script>
+  </head>
+
+  <body>
+    <div id="page-wraper">
+      <!-- Sidebar Menu -->
+        <div id="menu" class="menu">
+            <div class="image">
+              <a href="#"><img src="assets/images/5.jpg" alt="" /></a>
+            </div>
+            <nav class="main-nav" role="navigation">
+              <ul class="main-menu">
+                <li><a href="#" onclick="display('home')">Home</a></li>
+                <li><a href="#" onclick="display('about')">About Me</a></li>
+                <li><a href="#" onclick="display('contact')">Contact Me</a></li>
+                <li><a href="#" onclick="display('gallery')">Gallery</a></li>
+              </ul>
+            </nav>
+            <div class="social-network">
+              <ul>
+                <li><a href="https://www.linkedin.com/in/bonalakrishna/" target="_blank">LinkedIn</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="https://github.com/Kribon" target="_blank">GitHub</a></li>
+              </ul>
+            </div>
+        </div>
+        <div class="section home" style="display:block;" id="home">
+          <div class="section-heading">
+            <h2>Home</h2>
+            <div class="line-dec"></div>
+            <p>I am Bonala Krishna, undergraduate from IIT Guwahti, Currently working at Zemoso Technologies, Hyderabad.</p>
+          </div>
+      </div>
+        <div class="section about-me" style="display:none;" id="about" >
+          <div class="section-heading">
+            <h2>About Me</h2>
+            <div class="line-dec"></div>
+            <h3>
+              Introduction:
+            </h3>
+            <p>
+              I am Bonala Krishna, currently working at Zemoso Technologies.
+            </p>
+            <br>
+            <h3>
+              Technical Skills:
+            </h3>
+            <ul>
+              <li>Programming Languages: C,C++,Java</li><br>
+              <li>Web Technologies: HTML,CSS,Js</li><br>
+              <li>Operating Systems: Ubuntu,Windows</li>
+            </ul>
+            <br>
+            <h3>Education</h3>
+            <ul>
+              <li>Secondary School Education: Jawahar Navodaya Vidyalaya, Medak</li><br>
+              <li>Senior Secondary School Examination: Jawahar Navodaya Vidyalaya, RangaReddy</li><br>
+              <li>Graduation: IIT Guwahati</li>
+            </ul>
+          </div>
+      </div>
+        <div class="section contact-me" style="display:none;" id="contactme" >
+          <div class="section-heading">
+            <h2>Contact Me</h2>
+            <div class="line-dec"></div>
+          </div>
+              <div class="container">
+                <form id="contact" action="https://formspree.io/f/xgepynnj" method="post">
+                  <div class="row">
+                    <div class="col-md-12">
+                        <input
+                                name="email"
+                                type="text"
+                                class="form-control"
+                                id="email"
+                                placeholder="Your email..."
+                                required=""
+                        />
+                    </div>
+                    <div class="col-md-12">
+                        <textarea
+                                name="message"
+                                rows="6"
+                                class="form-control"
+                                id="message"
+                                placeholder="Your message..."
+                                required=""
+                        ></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" id="form-submit" class="button">
+                          Send Message
+                        </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+      </div>
+        <div class="section gallery" style="display:none;" id="gallery"  >
+          <div class="section-heading">
+            <h2>My Gallery</h2>
+            <div class="line-dec"></div>
+          </div>
+              <div class="isotope-box">
+                <div class="isotope-item" >
+                    <img src="assets/images/2.jpg"/>
+                </div>
+                <div class="isotope-item" >
+                    <img src="assets/images/3.jpg"/>
+                </div>
+                <div class="isotope-item" >
+                    <img src="assets/images/4.jpg"/>
+                </div>
+                <div class="isotope-item" >
+                    <img src="assets/images/5.JPG"/>
+                </div>
+                <div class="isotope-item">
+                    <img src="assets/images/6.jpg"/>
+                </div>
+                <div class="isotope-item" >
+                    <img src="assets/images/7.jpg"/>
+                </div>
+              </div>
+      </div>
+    </div>
+  </body>
+</html>
